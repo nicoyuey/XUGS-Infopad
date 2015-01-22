@@ -57,6 +57,7 @@ for(i=1; i<=maxLength; i++){
 /* JSONP */
 $(function(){
   getOnlineFeed('http://calcunico.blogspot.com/feeds/posts/default?alt=rss');
+  getOnlineFeed('https://www.facebook.com/feeds/page.php?id=907791529232944&format=rss20');
 });
 /* functions */
 var listEntries = function(json) {
